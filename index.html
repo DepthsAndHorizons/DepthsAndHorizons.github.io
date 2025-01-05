@@ -6,6 +6,47 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/style.css">
   <title>Depths & Horizons</title>
+  <style>
+    /* Hero Section */
+    .hero {
+      background: url('https://photos.fife.usercontent.google.com/pw/AP1GczPgQb098BfzxZItfwHY0frGnot5uwZl4eB9WK40swBXDgnCXWWvIvWxmw=w1183-h887-s-no-gm?authuser=0') no-repeat center center;
+      background-size: cover;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+      padding: 0 20px;
+    }
+    .hero h1 {
+      font-size: 4rem;
+      margin-bottom: 20px;
+    }
+    .hero p {
+      font-size: 1.5rem;
+      margin-bottom: 30px;
+    }
+    .hero .cta-buttons {
+      display: flex;
+      gap: 15px;
+    }
+    .hero .cta-buttons a {
+      padding: 10px 20px;
+      font-size: 1.2rem;
+      color: #007BFF;
+      background: white;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .hero .cta-buttons a:hover {
+      background: #007BFF;
+      color: white;
+    }
+  </style>
 </head>
 <body>
   <!-- Navigation Bar -->
@@ -14,10 +55,14 @@
     <a href="/Hiking/">Hiking</a>
   </nav>
 
-  <!-- Hero Section -->
-  <header>
+  <!-- Full-Screen Hero Section -->
+  <div class="hero">
     <h1>Welcome to Depths & Horizons</h1>
     <p>Your guide to adventures above and below the waterline.</p>
-  </header>
+    <div class="cta-buttons">
+      <a href="/Diving/">Explore Diving</a>
+      <a href="/Hiking/">Explore Hiking</a>
+    </div>
+  </div>
 </body>
 </html>
